@@ -2,8 +2,8 @@ window.addEventListener("DOMContentLoaded", init);
 
 function init() {
 
-    const helloButton = document.getElementById("button");
-    helloButton.addEventListener("click", addone);
+    const button = document.getElementById("button");
+    button.addEventListener("click", addone);
 
     function addone() {
         if (document.getElementById("compteur") != null) {
